@@ -1,0 +1,62 @@
+/* Minimalist Dark Grayscale Theme */
+html, body {
+  background: #181818;
+  color: #e0e0e0;
+  font-family: system-ui, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+nav {
+  background: #232323;
+  padding: 1em;
+  text-align: center;
+  border-bottom: 1px solid #333;
+}
+nav a {
+  color: #ededed;
+  text-decoration: none;
+  margin: 0 0.5em;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+nav a:hover, nav a:focus {
+  color: #bdbdbd;
+  text-decoration: underline;
+}
+main {
+  max-width: 600px;
+  margin: 2em auto;
+  padding: 0 1em;
+  background: #232323;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+}
+h1 {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+  color: #fafafa;
+}
+ul {
+  padding-left: 1.2em;
+}
+li {
+  margin-bottom: 0.5em;
+}
+main a {
+  color: #ededed;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+main a:hover, main a:focus {
+  color: #bdbdbd;
+}
+@media (max-width: 600px) {
+  main {
+    margin: 1em;
+    padding: 0;
+  }
+  nav {
+    font-size: 0.95em;
+    padding: 0.7em;
+  }
+}
