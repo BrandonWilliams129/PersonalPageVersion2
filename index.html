@@ -7,28 +7,39 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <nav>
-    <a href="index.html">Home</a> |
-    <a href="projects.html">Projects</a> |
-    <a href="music.html">Music</a> |
+  <nav class="site-nav" aria-label="Site">
+    <a href="index.html" aria-current="page">Home</a>
+    <a href="projects.html">Projects</a>
+    <a href="music.html">Music</a>
     <a href="reading.html">Reading List</a>
   </nav>
-  <main style="display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 70vh; text-align: center; max-width: 700px; padding: 1rem 2rem;">
+  <main class="home">
   <h1>Hey, I'm Brandon.</h1>
 
   <p>
-   Welcome to my site. I build games, create music, and explore AI, technology, and design.
-   I'm also the developer behind <a href="https://easyfinbot.com/" target="_blank" style="color: #8ecae6; text-decoration: underline;">EasyFinBot.com</a> — a curated resource showcasing real ways people are building businesses with AI.
+    Welcome to my site. I build games, create music, and explore projects at the intersection of AI, technology, and design.
+   I'm also the developer behind <a href="https://easyfinbot.com/" target="_blank" rel="noopener">EasyFinBot.com</a> — a curated resource showcasing real ways people are building businesses with AI.
    This is where I document creative projects, share useful tools, and experiment with new ideas.
   </p>
 
-  <nav style="margin: 1.5em 0;">
-    <a href="https://x.com/BitShifterMedia" target="_blank" rel="noopener">X (Twitter)</a> |
-    <a href="https://bit-shifter.itch.io/" target="_blank" rel="noopener">itch.io</a> |
+  <div class="status-block" aria-label="Current status">
+    <div class="status-row">
+      <span class="status-label">Now</span>
+      <span class="status-value">Experimenting with peer-to-peer multiplayer networking (STUN/TURN, NAT traversal, and UDP hole punching).</span>
+    </div>
+    <div class="status-row">
+      <span class="status-label">Currently reading</span>
+      <span class="status-value"><a href="reading.html">Surface Detail</a>.</span>
+    </div>
+  </div>
+
+  <nav class="social-nav" aria-label="Social">
+    <a href="https://x.com/bitwise__" target="_blank" rel="noopener">X (Twitter)</a>
+    <a href="https://bit-shifter.itch.io/" target="_blank" rel="noopener">itch.io</a>
     <a href="https://suno.com/@bitwise_" target="_blank" rel="noopener">Suno</a>
   </nav>
 
-  <p style="font-size: 0.9rem; color: #999;">
+  <p class="fine-print">
     No hype. Just one guy, building things for fun.
   </p>
   </main>
